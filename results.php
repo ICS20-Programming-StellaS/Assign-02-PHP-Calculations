@@ -5,6 +5,8 @@
 	$SideC = $_POST['sideC'];
 	$SideD = $_POST['sideD'];
   $Height = $_POST['height'];
+?>
+<?php
 	// calculate the area and perimeter
 	$Area = ($SideA + $SideB) * $Height/2 
 ?>

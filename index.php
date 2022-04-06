@@ -21,6 +21,7 @@
     <title>Calculating Area and Perimeter of a Trapezoid</title>
   </head>
   
+  
   <center><body>  
 
 		<!-- php echo to print the html to the page -->
@@ -29,31 +30,43 @@
     ?>
 
     <img src="./image/A_P_Trapezoid.jpg"/>
-
+    
   <?php
 			echo "<h3>Calculate the Area and Perimeter of a Trapezoid.</h3>";
 		?>
 
+    <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+  <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input">
+  <span class="mdl-checkbox__label">Press the box if you're ready to calculate the area and perimeter of a trapezoid PAIN FREE!</span>
+</label>
+    
     <!-- Values for calculating area and perimeter of trapezoid-->
     <form action="./results.php" method="post" target="results">  
       <label for=SideA">Side a (cm) :</label>
-      <input type="number"  name="sideA" id="sideA" placeholder="Side a of Trapezoid" name="sideA"><br><br>
+      <input type="text"  name="sideA" id="sideA" placeholder="Side a of Trapezoid" name="sideA"><br><br>
 
             <label for=SideB">Side b (cm):</label>
-      <input type="number"  name="sideB" id="sideB" placeholder="Side b of Trapezoid" name="sideB"><br><br>
+      <input type="text"  name="sideB" id="sideB" placeholder="Side b of Trapezoid" name="sideB"><br><br>
 
             <label for=SideC">Side c (cm) :</label>
-      <input type="number"  name="sideC" id="sideC" placeholder="Side c of Trapezoid" name="sideC"><br><br>
+      <input type="text"  name="sideC" id="sideC" placeholder="Side c of Trapezoid" name="sideC"><br><br>
 
             <label for=SideD">Side d (cm) :</label>
-      <input type="number"  name="sideD" id="sideD" placeholder="Side d of Trapezoid" name="sideD"><br><br>
+      <input type="text"  name="sideD" id="sideD" placeholder="Side d of Trapezoid" name="sideD"><br><br>
 
             <label for=Height">Height (cm) :</label>
-      <input type="number"  name="height" id="height" placeholder="height of Trapezoid" name="height"><br><br>
+      <input type="text"  name="height" id="height" placeholder="height of Trapezoid" name="height"><br><br>
 
       <input type="submit" value="Calculate">
     <!-- iframe for the results to show on the web page. -->
-      <iframe id="results" name="results">			
+      <iframe id="results" name="results">	
       </iframe>
+
+
+      <p>??How much did this help you??</p>
+    <!-- Slider with Starting Value -->
+    <input class="mdl-slider mdl-js-slider" type="range"
+      min="0" max="100" value="50" tabindex="0">
+      
   </body></center>
 </html>
