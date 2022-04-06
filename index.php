@@ -36,22 +36,22 @@
 
     <!-- Values for calculating area and perimeter of trapezoid-->
     <form action="./results.php" method="post" target="results">  
-      <label for=SideA">Side a :</label>
+      <label for=SideA">Side a (cm) :</label>
       <input type="number"  name="sideA" id="sideA" placeholder="Side a of Trapezoid" name="sideA"><br><br>
 
-            <label for=SideB">Side b :</label>
+            <label for=SideB">Side b (cm):</label>
       <input type="number"  name="sideB" id="sideB" placeholder="Side b of Trapezoid" name="sideB"><br><br>
 
-            <label for=SideC">Side c :</label>
+            <label for=SideC">Side c (cm) :</label>
       <input type="number"  name="sideC" id="sideC" placeholder="Side c of Trapezoid" name="sideC"><br><br>
 
-            <label for=SideD">Side d :</label>
+            <label for=SideD">Side d (cm) :</label>
       <input type="number"  name="sideD" id="sideD" placeholder="Side d of Trapezoid" name="sideD"><br><br>
 
-            <label for=Height">Height :</label>
+            <label for=Height">Height (cm) :</label>
       <input type="number"  name="height" id="height" placeholder="height of Trapezoid" name="height"><br><br>
 
-      <input type="submit" value="Pay">
+      <input type="submit" value="Calculate">
     <!-- iframe for the results to show on the web page. -->
       <iframe id="results" name="results">			
       </iframe>
