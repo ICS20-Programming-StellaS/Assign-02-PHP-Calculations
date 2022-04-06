@@ -1,0 +1,42 @@
+/* Created by: Stella S
+* Created on: Apr 2022
+* This CSS file defines the style for index.php
+* Assign-02-PHP-Calculations
+*/
+
+body {
+	background-color: rgb(184, 237, 255);
+}
+
+h1 {
+	background-color: rgb(163, 232, 255);
+	color: hsl(273, 100%, 69%);
+	padding: 40px;
+	text-align: center;
+}
+
+p {
+	background-color: #b6c8cd;
+}
+
+
+#display-results{
+  background-color: #a1bcc4;
+	color: hsl(273, 100%, 69%);
+}
+
+form {
+  background-color: #e0f8ff;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+iframe {
+  background-color: #c2f1ff;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#display-results{
+  background-color: #e0f8ff;
+}

@@ -8,5 +8,12 @@
 	// calculate the area and perimeter
 	$Area = ($SideA + $SideB) * $Height/2 
 ?>
+
+<?php
+  // calulates the perimeter
+  $Perimeter = $SideA + $SideB + $SideC + $SideD
+?>
+
 <h3>Results:</h3>
-The area is <?php echo "$Area" ?>.
+The area is <?php echo "$Area" ?> cm<sup>2</sup>.
+<div>The perimeter is <?php echo "$Perimeter" ?> cm<sup>2</sup>.</div>
