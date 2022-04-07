@@ -26,7 +26,7 @@
 
 		<!-- php echo to print the html to the page -->
     <?php 
-			echo "<h1>Calcaulating Area and Perimeter using PHP</h1>";
+			echo "<h1>Calculating Area and Perimeter using PHP</h1>";
     ?>
 
     <img src="./image/A_P_Trapezoid.jpg"/>
